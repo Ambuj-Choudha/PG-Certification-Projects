@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<div id="loader">
+    <a href="loader.html"></a>
+</div>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/payment.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div id="headers">
+            <header class="header-footer">
+        </div>
+        <div id="payment-container">
+            <div id="hotel-details">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                    class="hotel-image">
+                <div class="hotel-name-rating">
+                    <h2>Radisson Blu Hotel</h2>
+                    <p>#38 of 1,289 hotels in New Delhi</p>
+                    <p>National Highway 8, New Delhi 110017 India</p>
+                </div>
+            </div>
+            <div id="customer-payment-details">
+                <div id="customer-details">
+                    <p class="heading1"> <strong>Name: </strong></p>
+                    <p class="heading1"> <strong>Number of Adults: </strong></p>
+                    <p class="heading1"> <strong>Check-in Date: </strong></p>
+                    <p class="heading1"> <strong>Check-out Date: </strong> </p>
+                </div>
+                <div id="payment-details">
+                    <p class="heading1"><strong> Tariff Breakdown: </strong>&nbsp;</p>
+                    <p class="heading1"><strong> Total Amount: </strong>&nbsp;</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-success" id="pay-now" onclick="bookingSuccessful()"
+                        disabled>Pay Now</button>
+                </div>
+            </div>
+        </div>
+        <div id="footers"></div>
+
+        <script src="scripts/common.js"> </script>
+        <script src="scripts/payment.js"> </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+#slideshow-container, #booking-form {
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    max-height: 400px;
+}
+#slideshow-container {
+    margin-left: 2% ;
+    border-right: none;
+    flex-grow: 3;
+    max-width: 60%;
+}
+#booking-form {
+    margin-right: 4%;
+    flex-grow: 1;
+    
+}
+#hotel-description {
+    margin: 2%;
+}
+#detail-container {
+    margin-top:7%;
+    margin-bottom: 7%;
+}
+#slideshow-booking {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    
+}
+.slider-image {
+    max-height: 350px;
+}
+.outer {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+#book-now {
+    margin-top: 5%;
+}
+.inner {
+    width: 60%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rosybrown;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rosybrown;
+}
+
+
+@media only screen and (max-width: 768px){
+    img{
+        max-width: 100%;
+    }
+    .social-media-images{
+        margin-right: 12%;
+    }
+
+    #slideshow-booking {
+        display: flex;
+        justify-content: start;
+        align-content: center;
+        margin-top: 10%;
+    }
+    .slider-image {
+    height: 295px;
+    }
+   
+}
+
+@media only screen and (max-width:576px){
+    img{
+        max-width: 100%;
+    }
+    .social-media-images{
+        margin-right: 12%;
+    }
+
+    #slideshow-booking {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-content: center;
+        margin-top: 15%;
+    }
+    .slider-image {
+        width: 90%;
+        }
+
+     #slideshow-container {
+            margin-left: 2% ;
+            border: solid 1px black;
+            flex-grow: 3;
+            max-width: 94%;
+            margin-right: 0%;
+            margin-left: 2%;
+        }
+
+        #booking-form {
+            margin-right: 4%;
+            flex-grow: 1;
+            margin-left: 2%;
+        }
+    
+}

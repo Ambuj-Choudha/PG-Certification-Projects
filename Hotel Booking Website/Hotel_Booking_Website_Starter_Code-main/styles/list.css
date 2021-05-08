@@ -1,0 +1,101 @@
+.hotel-image-small {
+    height: 200px;
+    width: 250px;
+}
+
+.hotel{
+    margin: 4% 5% 0% 5%; 
+    background-color: lightgrey;
+    width: 40%;
+    float: left;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+.hotel:hover {
+    background-color: rosybrown;
+}
+
+#list-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 6%;
+}
+#list-map {
+    position: relative;
+    top: 0%;
+}
+#select-list {
+    position: absolute;
+    left: 42%;
+    font-weight: bold;
+}
+#select-map {
+    position: absolute;
+    left: 50%;
+    font-weight: bold;
+}
+
+#map-view{
+    height: 100%;
+}
+
+#pills-tab {
+    justify-content: center;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 768px){
+    img{
+        max-width: 100%;
+    }
+    .social-media-images{
+        margin-right: 12%;
+    }
+    #pills-tab {
+        justify-content: center;
+        margin-top: 10%;
+    }
+
+    .hotel{
+        margin: 5% 5% 2.5% 5%; 
+        background-color: lightgrey;
+        width: 90%;
+        float: left;
+        display: flex;
+        justify-content: start;
+        align-content: center;
+    }
+  
+}
+
+@media only screen and (max-width:576px){
+    img{
+        max-width: 100%;
+    }
+    .social-media-images{
+        margin-right: 12%;
+    }
+    #pills-tab {
+        justify-content: center;
+        margin-top: 16%;
+    }
+
+    .hotel{
+        margin: 5% 5% 2.5% 5%; 
+        background-color: lightgrey;
+        width: 90%;
+        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-content: center;
+    }
+
+    .hotel-image-small {
+        height: auto;
+        width: 90%;
+    }
+}
